@@ -54,7 +54,18 @@ Benefits of SRP
 ### 4\. **Readability**
 
 *   The code is more readable because each class is focused on a single aspect of the application’s functionality.
-    
+
+Use application:
+----------
+
+```bash
+$ git clonehttps://github.com/thiiagoms/single-responsibility-php srp-solid
+$ cd single-responsibility-php
+single-responsibility-php $ docker-compose up -d
+single-responsibility-php $ docker-compose exec app bash
+single-responsibility-php $ composer install -vvv
+$ docker exec -i <mysql-container-id> mysql -u root -proot < ./.devops/mysql/script.sql 
+```
 
 Conclusion
 ----------
