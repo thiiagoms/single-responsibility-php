@@ -1,0 +1,18 @@
+{
+    "name": "thiiagoms/srp-php",
+    "description": "Single Responsibility Principle (SRP) in PHP for Composer Packages:",
+    "autoload": {
+        "psr-4": {
+            "Thiiagoms\\SRP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "thiiagoms",
+            "email": "thiagom.devsec@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
