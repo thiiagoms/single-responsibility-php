@@ -24,11 +24,11 @@ require __DIR__.'/vendor/autoload.php';
 $containerDI = new ContainerDI;
 
 $containerDI->set(DatabaseConnectionContract::class, fn (): MySQLConnection => new MySQLConnection(
-    dbHost: '127.0.0.1',
+    dbHost: 'db',
     dbName: 'solid',
     dbPort: 3306,
     dbUser: 'root',
-    dbPass: '',
+    dbPass: 'root',
 ));
 
 $containerDI->set(
