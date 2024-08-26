@@ -59,12 +59,12 @@ Use application:
 ----------
 
 ```bash
-$ git clonehttps://github.com/thiiagoms/single-responsibility-php srp-solid
+$ git clone https://github.com/thiiagoms/single-responsibility-php srp-solid
 $ cd single-responsibility-php
 single-responsibility-php $ docker-compose up -d
 single-responsibility-php $ docker-compose exec app bash
 single-responsibility-php $ composer install -vvv
-$ docker exec -i <mysql-container-id> mysql -u root -proot < ./.devops/mysql/script.sql 
+single-responsibility-php $ docker exec -i <mysql-container-id> mysql -u root -proot < ./.devops/mysql/script.sql 
 ```
 
 Conclusion
