@@ -59,7 +59,7 @@ Use application:
 ----------
 
 ```bash
-$ git clone https://github.com/thiiagoms/single-responsibility-php srp-solid
+$ git clone https://github.com/thiiagoms/single-responsibility-php
 $ cd single-responsibility-php
 single-responsibility-php $ docker-compose up -d
 single-responsibility-php $ docker-compose exec app bash
